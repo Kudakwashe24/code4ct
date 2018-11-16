@@ -32,6 +32,7 @@ Tools:
 - Readme updated
 - Updated my website link
 - Cleared mistakes on a folder
+- Created a nav bar that includes a Home page, Contact, About and Portofilio 
  
 
 
