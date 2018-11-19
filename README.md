@@ -34,6 +34,11 @@ Tools:
 - Cleared mistakes on a folder
 - Created a nav bar that includes a Home page, Contact, About and Portofilio.
 
+2018-11-19
+- Styled my nav bar
+- Added the code4ct logo
+- Created the Young Women Leveraging Tech for Social Innovation heading and added the paragraph
+
  
 
 
