@@ -38,7 +38,7 @@ Tools:
 - Styled my nav bar
 - Added the code4ct logo
 - Created the Young Women Leveraging Tech for Social Innovation heading and added the paragraph
-
+- Removed href on my nav bar
  
 
 
