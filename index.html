@@ -7,30 +7,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> 
 </head>
 <body>
+    <!-- Header for navbar -->
     <header>
         <img src="images/code4ct-logo-1.jpg" alt="">
-        <nav class="topnav"> 
-            <li>Home</li>
-            <li>Courses</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Portofolio</li>
 
-            <input type="text" placeholder="search">
-            <button><i class="fa fa-search"></i></button> 
+        <nav class="topnav"> 
+            <ul>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Search button -->
+            <div class="search-container"></div>
+                <input type="text" placeholder="Search">
+                <button><i class="fa fa-search"></i></button>
+            </div> 
         </nav>
     </header>
 
-        <main>
-            <h1>Young Women Leveraging Tech <br> for Social Innovation</h1>
-            <p> We want to see young women empowered to leverage technology for social innovation, 
-                so that there is greater diversity in the African tech industry. We want high school 
-                girls to have an enabling environment to imagine and create new technology that is 
-                relevant to a South African context.</p>
-        </main>
+    <grid class="grid-container">
+            <!-- slideshow with images -->
+            <slider id="slideshow">
+               <div class="slide-wrapper">
+                  <div class="slide"><img src="images/slider-image1.jpg" class="slide-picture" height="100%"width="100%"></div>
+                  <div class="slide"><img src="images/slider-image2.png" class="slide-picture"height="100%"width="100%"></div>
+                  <div class="slide"><img src="images/slider-image3.jpg" class="slide-picture"height="100%"width="100%"></div>
+                  <div class="slide"><img src="images/slider-image4.jpg" class="slide-picture"height="100%"width="100%"></div>
+                  <div class="slide"><img src="images/slider-image5.jpg" class="slide-picture"height="100%"width="100%"></div>
+               </div>
+            </slider>
+            <!-- section of main paragraph -->
+            <div class="main-paragraph">
+               <h2>Code For Cape Town</h2>
+               <p>We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</p>
+               <!-- buttons to take u to other pages on website -->
+               <a href="courses.html"> <button type="button"class="coding-button" name="button">Coding</button></a>
+               <a href="about.html"><button type="button"class="about-us-button" name="button">About Us</button></a>
+            </div>
+            <!-- who we are section paragraph -->
+            <div class="who-we-are-paragraph">
+               <h3>Who Are We?</h3>
+               <p>we equip high potential female learners with the coding, problem solving and life skills that will allow them to leverage technology to contribute meaningfully to South Africa’s innovation system. The program exposes young women to how technology can be used for social innovation and helps them navigate critical study decisions.</p>
+               <a href="about.html"><button type="button"class="read-more-button" name="button">Read more</button>
+            </div>
+            </a>
+            <!-- image section -->
+            <div class="image1"></div>
+            <div class="image2"></div>
+            <div class="image3"></div>
+            <div class="image4"></div>
+            <!-- topics on what the code offers -->
+            <coding-info class="coding-icon">
+               <img src="images/coding-icon.png"class="coding-picture">
+               <h3>Coding</h3>
+               <p>Learn how to build your own websites using HTML, CSS, JavaScript & JQuery. Go on to explore exciting modules from game development to user experience design.</p>
+            </coding-info>
+            <communication-info class="communication-icon">
+               <img src="images/speaker.png">
+               <h3>Communication</h3>
+               <p>Learn how to pitch ideas, represent yourself online, communicate professionally and work with online collaboration tools.</p>
+            </communication-info>
+            <problemsolving-info class="problemsolving-icon">
+               <img src="images/wrench.png">
+               <h3>Problem Solving</h3>
+               <p>Apply your coding skills to issues you are interested in. You will learn how to tackle complex problems using the design thinking process.</p>
+            </problemsolving-info>
+            <guidance-info class="career-guidance-icon">
+               <img src="images/documents.png">
+               <h3>Career Guidance</h3>
+               <p>Explore future options by meeting different companies doing exciting things with technology. We offer career testing and connect you to our network of study institutions and bursary programs.</p>
+            </guidance-info>
+            <div class="portfolio_info">
+               <h2>Our Awesome Portfolio</h2>
+               <p>
+                  Over the past 3 years, Code for Cape Town has reached over 600 young women with coding and social innovation. Not only have they been exposed to coding but they have also done careers and life skills courses, design thinking workshops and social innovation projects to address local challenges.
+                  <!-- portfolio section with awards and recognition -->
+                  Our alumnae that joined the program in 2014 and 2015 have now left high school and many of them have gone on to enter STEM related tertiary studies or skills development.
+               </p>
+            </div>
+            <!-- images with hover effects,brief explanation for each image -->
+            <div class="portfolio-image1">
+               <div class="overlay1">
+                  <p class="hover-text1">Code4CT’s founder was awarded the Queen’s Young Leaders Award for her work towards social justice which she received in June 2015 from her Majesty the Queen at Buckingham Palace.</p>
+               </div>
+            </div>
+            <div class="portfolio-image2">
+               <div class="overlay2">
+                  <p class="hover-text2">Code4CT is awarded for it’s role in creating social change in South Africa.</p>
+               </div>
+            </div>
+            <div class="portfolio-image3">
+               <div class="overlay3">
+                  <p class="hover-text3">Fast Company features Code4CT’s founder as one of South Africa’s Top 30 Under 30</p>
+               </div>
+            </div>
+            <div class="portfolio-image4">
+               <div class="overlay4">
+                  <p class="hover-text4">SABC tells the story of Kholiswa Ntshinga who graduated from Code for Cape Town and went on to study web development at CodeSpace Academy and now works as a junior web developer</p>
+               </div>
+            </div>
+            <div class="portfolio-image5">
+               <div class="overlay5">
+                  <p class="hover-text5">HecticNine9 visits two of our coders during Industry Immersions to see what they are coding</p>
+               </div>
+            </div>
+            <!-- the team that runs code4ct -->
+            <team class="our-team">
+               <h2>Meet Our Team</h2>
+            </team>
+            <div class="member1">
+               <img src="images/emma-dicks.png">
+               <h3>Emma Dicks</h3>
+            </div>
+            <div class="member1-information">
+               <em>Founder and Director</em>
+               <p>Emma is passionate about providing high quality education that enables young people to bring innovative ideas to life and play an active role in South Africa’s economy.Aside from her work at Code4CT, Emma advocates for tech education through acting as an Ambassador for Africa Code Week and coordinating the #eSkills4Girls network in Africa.</p>
+            </div>
+            <div class="member2">
+               <img src="images/andrea-peterson.png">
+               <h3>Andrea Peterson</h3>
+            </div>
+            <div class="member2-information">
+               <em>Operations Lead</em>
+               <p>Andrea thrives on seeing key players in the Code4CT ecosystem discover how they can make the greatest impact.When she is not co-ordinating the Code4CT family she can be found enjoying the diverse cuisine and great outdoors that Cape Town has to offer.</p>
+            </div>
+            <div class="member3">
+               <img src="images/tegan-crous.png">
+               <h3>Tegan Crous</h3>
+            </div>
+            <div class="member3-information">
+               <em>Leading Lead</em>
+               <p>Andrea thrives on seeing key players in the Code4CT ecosystem discover how they can make the greatest impact.She has experience working with youth in various formats and found herself in the tech industry quite by mistake, but with no regrets.</p>
+            </div>
+            <div class="member4">
+               <img src="images/tracy-anne.png">
+               <h3>Tracy-Anne Sikenjana</h3>
+            </div>
+            <div class="member4-information">
+               <em>Leadership Program Coordinator</em>
+               <p>During her time at Code4CT she facilitated coding classes, headed up the Ambassador programme and assisted with all program operations and logistics. Tracy joined the Code4CT program in 2015,She believes in helping young girls realize the potential they have to become game changers in their local communities.</p>
+            </div>
+            <!-- the timeups -->
+            <timer class="timerup">
+               <table class="countup">
+                  <tr>
+                     <td>
+                        <div class="counter" data-count="3000"></div>
+                     </td>
+                     <td>
+                        <div class="counter" data-count="780"></div>
+                     </td>
+                     <td>
+                        <div class="counter" data-count="3120"></div>
+                     </td>
+                     <td>
+                        <div class="counter" data-count="8765"></div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p class="counterTerm">Cups of coffee</p>
+                     </td>
+                     <td>
+                        <p class="counterTerm">Number of girls</p>
+                     </td>
+                     <td>
+                        <p class="counterTerm">Projects completed</p>
+                     </td>
+                     <td>
+                        <p class="counterTerm">Hours of coding</p>
+                     </td>
+                  </tr>
+               </table>
+            </timer>
+            <!-- subscription service -->
+            <subscribe class="subscription">
+               <h2><img src="images/subscribe-pic.png">Subscribe To Us</h2>
+               <p>Individuals and companies may choose to align themselves to our work by becoming a #FriendofCode4CT.</p>
+               <form action="/action_page.php">
+                  <input type="email"placeholder="email" name="email">
+                  <input type="submit"class="email-button">
+               </form>
+            </subscribe>
+            <!-- carousal slider -->
+            <div class="tech-slideshow">
+               <div class="mover-1"></div>
+            </div>
+            <!-- slideup button -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <!-- footer sections  -->
+            <footer class="footer-section1">
+               <h3>Contact Details:</h3>
+               <p><img src="images/contact-footer_image.png">021 685 0991</p>
+               <p><img src="images/email-footer_image.png">info@code4ct.com </p>
+               <p><img src="images/location-footer_image.png">Physical address: Innovate South Africa, 403 Old Castle Brewery, 6 Beach Rd, Woodstock, Cape Town, 7915  </p>
+            </footer>
+            <!-- footer section 2 -->
+            <footer class="footer-section2">
+               <h3>Company:</h3>
+               <ul>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>Blog</li>
+                  <li>Testimonials</li>
+                  <li>Affiliate Program</li>
+               </ul>
+            </footer>
+            <!-- footer section 3 -->
+            <footer class="footer-section3">
+               <h3>Help & Support:</h3>
+               <ul>
+                  <li>Help Center</li>
+                  <li>Free Simple Template</li>
+                  <li>Refund Policy</li>
+                  <li>Report Span</li>
+               </ul>
+            </footer>
+            <!-- footer section 4 -->
+            <footer class="footer-section4">
+               <h4>Copyright 2017 Privacy Policy</h4>
+               <p>Follow Us:
+                  <img src="images/facebook-image.png">
+                  <img src="images/twitter-image.png">
+                  <img src="images/pinterest-image.png">
+                  <img src="images/googleplus-image.png">
+                  <img src="images/linkedin-image.png">
+               </p>
+            </footer>
+         </grid>
 
 </body>
 </html>
