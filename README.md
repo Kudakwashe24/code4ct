@@ -45,7 +45,7 @@ Tools:
 - Base.scss holds boilerplate content. It holds the style of every page of your site.
 - Component.scss holds all my micro-layout files. Styling of buttons and nav bar.
 - Layout.scss styles major sections of the layout like a header or footer and styles the grid system.
-- Variables are a way to store information that you want to reuse throughout your stylesheet. You      can store things like colors, font stacks, or any CSS value you think you'll want to reuse.
+- Variables are a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse.
 - Responsiveness is all the media queries.
 
 2018-11-27
