@@ -53,7 +53,7 @@ Tools:
 - Added all required images
 - Fixed my header with navbar, everything is displayed inline
 
-2018-11-28
+2018-11-29
 - Added paragraph 'Who we are"
 - Added images next to paragraph. 
 
