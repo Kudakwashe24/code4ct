@@ -56,7 +56,9 @@ Tools:
 2018-11-29
 - Added paragraph 'Who we are"
 - Added images next to paragraph. 
-
+- Added the discription of the following: Coding, problem Soloving and Career Guidance
+- Added icons and a paragraph to each description
+- Styled the descriptions inline and changed background color
 
  
 
