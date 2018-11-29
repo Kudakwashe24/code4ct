@@ -1,6 +1,6 @@
 // holds all the micro-layout files. Styling of buttons and navigation and similar page components.
 
-//  header for display,grid-template-columns,grid-template-rows,width,height,position,top,right,left,and background-colour
+//  header 
  header{
   width:100%;
   height: auto;
@@ -45,8 +45,4 @@ nav a {
 /*search bar float*/
 .searchBar{
   float: right;
-}
-
-p {
-  float: left;
 }

@@ -64,10 +64,6 @@ nav a {
   float: right;
 }
 
-p {
-  float: left;
-}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   * {
     box-sizing: border-box;
