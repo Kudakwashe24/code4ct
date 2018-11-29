@@ -48,6 +48,15 @@ Tools:
 - Variables are a way to store information that you want to reuse throughout your stylesheet. You      can store things like colors, font stacks, or any CSS value you think you'll want to reuse.
 - Responsiveness is all the media queries.
 
+2018-11-27
+- Restarting the code4ct
+- Added all required images
+- Fixed my header with navbar, everything is displayed inline
+
+2018-11-28
+- Added paragraph 'Who we are"
+- Added images next to paragraph. 
+
  
 
 

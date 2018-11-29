@@ -1,1 +1,24 @@
 // holds boilerplate content. It holds the style of every page of my site should receive.
+
+// my slides display
+ .myWecome {
+    display:none;
+}
+// slideshow-container display,grid-template-columns,grid-template-rows,width,and height
+.welcome {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    width: 100%;
+    height: 650px;
+}
+
+// container display,grid-template-columns,grid-templates-rows,width,height,and padding
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    width: 100%;
+    height: auto;
+    padding: 28px 130px;
+}

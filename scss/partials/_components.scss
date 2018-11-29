@@ -1,27 +1,52 @@
 // holds all the micro-layout files. Styling of buttons and navigation and similar page components.
 
-
-html {
-    scroll-behavior: smooth;
+//  header for display,grid-template-columns,grid-template-rows,width,height,position,top,right,left,and background-colour
+ header{
+  width:100%;
+  height: auto;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
 }
-  
-  
- 
-body{
-    margin: 0px;
-    padding:0px;
+
+// nav unordered list-style,list-style-type,float,and margin-top
+nav ul{
+  list-style: none;
+  list-style-type: none;
+  float: right;
+  margin-top: 10mm;
+  color: grey;
+}
+// nav image width,height,and float
+nav img{
+      width: 240px;
+      height: 100px;
+      float: left;
+}
+// nav list font-size,display,and padding
+nav li{
+  font-size: 22px;
+  display: inline;
+  padding: 10px;
 }
 
-// header 
-header{
-    position: absolute;
-    top:0;
-    left:0;
-    padding:0 100px;
-    background:grey;
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-    z-index: 1;
-    background-color:white;
-  }
+header nav ul li a:hover,
+header nav ul li a.active {
+    color:  #e38f84;
+}
+
+nav a {
+  color: grey;
+  text-decoration: none;
+}
+
+/*search bar float*/
+.searchBar{
+  float: right;
+}
+
+p {
+  float: left;
+}
