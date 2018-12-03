@@ -1,3 +1,49 @@
 // styles for major sections of the layout like a header or footer and styles for grid system.
 
- 
+.coding-icon{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 29;
+    grid-row-end: 34;
+    text-align: center;
+    border:none;
+    background-color: black;
+    color: white;
+    h3{ 
+  
+      margin-top: 1px;
+      font-size: 27px;
+    }
+    p{
+      margin-top: -14px;
+    }
+    img{
+      width: 132px;
+      left: 3px;
+      height: 153px;
+    }
+  }
+
+  .coding-icon{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 29;
+    grid-row-end: 34;
+    text-align: center;
+    border:none;
+    background-color: black;
+    color: white;
+    h3{
+  
+      margin-top: 1px;
+      font-size: 27px;
+    }
+    p{
+      margin-top: -14px;
+    }
+    img{
+      width: 132px;
+      left: 3px;
+      height: 153px;
+    }
+  }
