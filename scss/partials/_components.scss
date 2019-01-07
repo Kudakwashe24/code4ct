@@ -1,48 +1,48 @@
 // holds all the micro-layout files. Styling of buttons and navigation and similar page components.
 
-//  header 
- header{
-  width:100%;
-  height: auto;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px;
+// navbar logo
+// contains grid-column, grid-row, padding, background-color, width and float
+nav {
+  grid-column: 1/11;
+  grid-row: 1/2;
+  padding: 1em 1em 1em 3em;
   background-color: white;
-}
 
-// nav unordered list-style,list-style-type,float,and margin-top
-nav ul{
-  list-style: none;
-  list-style-type: none;
-  float: right;
-  margin-top: 10mm;
-  color: grey;
-}
-// nav image width,height,and float
-nav img{
-      width: 240px;
-      height: 100px;
-      float: left;
-}
-// nav list font-size,display,and padding
-nav li{
-  font-size: 22px;
-  display: inline;
-  padding: 10px;
-}
+  .logo {
+    width: 35%;
+    float: left;
+    img {
+      width: 15em;
+    }
+  }
 
-header nav ul li a:hover,
-header nav ul li a.active {
-    color:  #e38f84;
-}
+  ul {
+    padding: 0.5em;
+    float: left;
 
-nav a {
-  color: grey;
-  text-decoration: none;
-}
+    li {
+      display: inline-flex;
+      padding-right: 1em;
 
-/*search bar float*/
-.searchBar{
-  float: right;
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #e1918a;
+      }
+    }
+  }
+
+  .searchbar {
+    float: left;
+    margin: 1.2em 0 0 9em;
+  }
+
+  button {
+    margin-left: -0.29em;
+    color: red;
+    border-radius:0.2em;
+    width: 3em;
+  }
 }

@@ -1,11 +1,24 @@
 /* ==== Global imports ==== */
+body {
+  display: grid;
+  grid-template-columns: repeat(10);
+  grid-template-rows: repeat(11);
+  margin: 0;
+  font-size: 0.875em;
+}
+
 #container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   width: 100%;
   height: auto;
-  padding: 28px 130px;
+  padding: 50px 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 .coding-icon {
@@ -54,49 +67,42 @@
   height: 153px;
 }
 
-header {
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px;
+nav {
+  grid-column: 1/11;
+  grid-row: 1/2;
+  padding: 1em 1em 1em 3em;
   background-color: white;
 }
-
-nav ul {
-  list-style: none;
-  list-style-type: none;
-  float: right;
-  margin-top: 10mm;
-  color: grey;
-}
-
-nav img {
-  width: 240px;
-  height: 100px;
+nav .logo {
+  width: 35%;
   float: left;
 }
-
-nav li {
-  font-size: 22px;
-  display: inline;
-  padding: 10px;
+nav .logo img {
+  width: 15em;
 }
-
-header nav ul li a:hover,
-header nav ul li a.active {
-  color: #e38f84;
+nav ul {
+  padding: 0.5em;
+  float: left;
 }
-
-nav a {
-  color: grey;
+nav ul li {
+  display: inline-flex;
+  padding-right: 1em;
+}
+nav ul li a {
   text-decoration: none;
 }
-
-/*search bar float*/
-.searchBar {
-  float: right;
+nav ul li a:hover {
+  color: #e1918a;
+}
+nav .searchbar {
+  float: left;
+  margin: 1.2em 0 0 9em;
+}
+nav button {
+  margin-left: -0.29em;
+  color: red;
+  border-radius: 0.2em;
+  width: 3em;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {

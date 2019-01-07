@@ -1,5 +1,9 @@
 // styles for major sections of the layout like a header or footer and styles for grid system.
 
+* {
+  padding: 0;
+  margin: 0;
+}
 .coding-icon{
     grid-column-start: 1;
     grid-column-end: 11;
