@@ -81,8 +81,10 @@ nav .logo img {
   width: 15em;
 }
 nav ul {
+  font-size: 20px;
   padding: 0.5em;
   float: left;
+  padding-top: 25px;
 }
 nav ul li {
   display: inline-flex;
@@ -90,6 +92,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
+  color: grey;
 }
 nav ul li a:hover {
   color: #e1918a;
@@ -98,11 +101,18 @@ nav .searchbar {
   float: left;
   margin: 1.2em 0 0 9em;
 }
+nav .searchbar input {
+  border-radius: 0.2em 0 0 0.2em;
+  padding: 0.2em;
+  border-right: 0;
+}
 nav button {
   margin-left: -0.29em;
   color: red;
   border-radius: 0.2em;
   width: 3em;
+  border-radius: 0 0.2em 0.2em 0;
+  height: 1.745em;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {

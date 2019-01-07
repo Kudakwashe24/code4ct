@@ -17,8 +17,10 @@ nav {
   }
 
   ul {
+    font-size: 20px; 
     padding: 0.5em;
     float: left;
+    padding-top: 25px;
 
     li {
       display: inline-flex;
@@ -26,6 +28,7 @@ nav {
 
       a {
         text-decoration: none;
+        color: grey;
       }
 
       a:hover {
@@ -37,6 +40,12 @@ nav {
   .searchbar {
     float: left;
     margin: 1.2em 0 0 9em;
+
+    input{
+      border-radius: 0.2em 0 0 0.2em;
+      padding: 0.2em;
+      border-right: 0;
+    }
   }
 
   button {
@@ -44,5 +53,7 @@ nav {
     color: red;
     border-radius:0.2em;
     width: 3em;
+    border-radius:0 0.2em 0.2em 0;
+    height: 1.745em;
   }
 }
