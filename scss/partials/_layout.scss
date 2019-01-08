@@ -2,9 +2,29 @@
 
 .header {
   grid-column: 1/11;
-  padding: 3em;
+  padding: 9.57em;
   color: #e8e8e8;
   text-align: center;
   background-size: cover;
   font-size: 1.5em;
+
+  .text {
+    padding: 1em;
+  }
+
+  .startNow {
+    background-color: red;
+    color: white;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 0.5em;
+    border: 0.1em solid red; 
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+  }
 }

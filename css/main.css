@@ -9,11 +9,28 @@ body {
 
 .header {
   grid-column: 1/11;
-  padding: 3em;
+  padding: 9.57em;
   color: #e8e8e8;
   text-align: center;
   background-size: cover;
   font-size: 1.5em;
+}
+.header .text {
+  padding: 1em;
+}
+.header .startNow {
+  background-color: red;
+  color: white;
+  padding: 0.5em 2em 0.5em 2em;
+  border-radius: 0.5em;
+  border: 0.1em solid red;
+}
+.header button {
+  background-color: black;
+  color: white;
+  padding: 0.5em 2em 0.5em 2em;
+  border-radius: 0.5em;
+  border: 0.1em solid black;
 }
 
 nav {
@@ -33,7 +50,7 @@ nav ul {
   font-size: 0.938em;
   padding: 0.5em;
   float: left;
-  padding-top: 1.563em;
+  padding-top: 0.563em;
 }
 nav ul li {
   display: inline-flex;
