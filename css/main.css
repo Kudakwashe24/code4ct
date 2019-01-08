@@ -41,11 +41,6 @@ nav .searchbar {
   float: left;
   margin: 1.2em 0 0 9em;
 }
-nav .searchbar input {
-  border-radius: 0.2em 0 0 0.2em;
-  padding: 0.2em;
-  border-right: 0;
-}
 nav button {
   margin-left: -0.29em;
   color: red;
