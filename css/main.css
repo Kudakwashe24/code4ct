@@ -10,6 +10,8 @@ body {
 .header {
   grid-column: 1/11;
   padding: 3em;
+  color: #e8e8e8;
+  text-align: center;
 }
 
 nav {
