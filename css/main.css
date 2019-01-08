@@ -7,6 +7,11 @@ body {
   font-size: 0.875em;
 }
 
+.header {
+  grid-column: 1/11;
+  padding: 3em;
+}
+
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
