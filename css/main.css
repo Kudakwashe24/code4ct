@@ -7,6 +7,31 @@ body {
   font-size: 0.875em;
 }
 
+.whoweare {
+  grid-column: 1/11;
+  padding: 1em 15em 1em 15em;
+}
+.whoweare .text {
+  width: 45%;
+  float: left;
+  padding: 1em;
+}
+.whoweare h2 {
+  border-bottom: 0.1em solid red;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+.whoweare .pictures {
+  width: 45%;
+  padding: 1em;
+  float: left;
+}
+.whoweare .pictures img {
+  width: 45%;
+  height: 10em;
+  padding: 0.5em;
+}
+
 .header {
   grid-column: 1/11;
   padding: 9.57em;
