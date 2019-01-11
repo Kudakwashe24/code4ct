@@ -51,3 +51,13 @@ nav {
     height: 1.745em;
   }
 }
+
+
+.icon_brief {
+  grid-column: 1/11;
+  padding: 1em;
+
+  .coding {
+    text-align: center;
+  }
+}
