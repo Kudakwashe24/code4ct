@@ -98,6 +98,11 @@ nav button {
 .icon_brief .coding {
   text-align: center;
   padding: 2em;
+  width: 20%;
+  float: left;
+}
+.icon_brief .coding .icon .img {
+  width: 5em;
 }
 
 /*# sourceMappingURL=main.css.map */
