@@ -37,4 +37,26 @@ nav {
       }
     }
   }
+
+  .searchbar {
+    float: left;
+    margin: 1.2em 0 0 9em;
+
+    input {
+      border: 0.1em solid #666666;
+      border-radius: 0.2em 0 0 0.2em;
+      padding: 0.2em;
+      border-right: 0;
+    }
+  }
+
+  button {
+    margin-left: -0.29em;
+    background: white;
+    color: #ee534f;
+    // border: none;
+    height: 1.745em;
+    border-radius:0 0.2em 0.2em 0;
+    width: 3em;
+  }
 }
