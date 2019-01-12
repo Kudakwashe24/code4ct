@@ -26,6 +26,20 @@ body {
   border: 0.1em solid white;
 }
 
+.portfolio {
+  grid-column: 1/11;
+  padding: 1em 15em 1em 15em;
+}
+.portfolio .text {
+  float: left;
+  padding: 1em;
+}
+.portfolio .text h2 {
+  border-bottom: 0.1em solid red;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
