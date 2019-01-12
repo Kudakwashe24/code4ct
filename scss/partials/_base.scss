@@ -2,27 +2,3 @@
 
 // box-sizing, body, headings
 
-body {
-    display: grid;
-    grid-template-columns: repeat(10);
-    grid-template-rows: repeat(11);
-    margin: 0;
-    font-size: 0.875em;
-}
-
-.whoweare {
-    grid-column: 1/11;
-    padding: 1em 15em 1em 15em;
-
-    .text {
-        width: 45%;
-        float: left;
-        padding: 1em;
-    }
-
-    h2 {
-        border-bottom: 0.1em solid red;
-        margin: 0;
-        padding-bottom: 0.5em;
-    }
-}
