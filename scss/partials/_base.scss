@@ -2,3 +2,9 @@
 
 // box-sizing, body, headings
 
+body {
+    display: grid;
+    grid-template-columns: (10);
+    grid-template-rows: (11);
+    margin: 0;
+}

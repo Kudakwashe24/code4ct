@@ -3,3 +3,38 @@
 // navbar logo
 // contains grid-column, grid-row, padding, background-color, width and float
 
+nav {
+  grid-column: 1/11;
+  grid-row: 1/2;
+  padding: 1em 1em 1em 3em;
+  background: white;
+
+  .logo {
+    width: 35%;
+    float: left;
+
+    img{
+      width: 10em;
+    }
+  }
+
+  ul {
+    padding: 0.3em 0 0 0;
+    float: left;
+
+    li {
+      list-style-type: none;
+      display: inline-flex;
+      padding-right: 2em;
+
+      a {
+        text-decoration: none;
+        color: #666666;
+      }
+
+      a:hover {
+        color: #e1918a;
+      }
+    }
+  }
+}
