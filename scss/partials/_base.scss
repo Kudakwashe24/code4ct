@@ -8,27 +8,3 @@ body {
     grid-template-rows: (11);
     margin: 0;
 }
-
-.header {
-    grid-column: 1/11;
-    padding: 3em;
-    color: white;
-    text-align: center;
-    background-size: cover;
-    font-size: 1.5em;
-
-    .text {
-        padding: 1em;
-        // margin: 2em 10em 2em 10em;
-        border-radius: 0.7em;
-    }
-
-    button{
-        background: none;
-        color: white;
-        padding: 0.5em 2em 0.5em 2em;
-        font-size: 1em;
-        border-radius: 0.2em;
-        border: 0.1em solid white; 
-    }
-}

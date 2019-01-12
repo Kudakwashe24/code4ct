@@ -40,7 +40,7 @@ nav {
 
   .searchbar {
     float: left;
-    margin: 1.2em 0 0 9em;
+    margin: 1.2em 0 0 7em;
 
     input {
       border: 0.1em solid #666666;
@@ -58,5 +58,35 @@ nav {
     height: 1.745em;
     border-radius:0 0.2em 0.2em 0;
     width: 3em;
+  }
+}
+
+.whoweare {
+  grid-column: 1/11;
+  padding: 1em 15em 1em 15em;
+  background: white;
+
+  .text {
+    width: 45%;
+    float: left;
+    padding: 1em;
+
+    h2 {
+      border-bottom: 0.1em solid red;
+      margin: 0;
+      padding-bottom: 0.5em;
+    }
+  }
+
+  .pictures {
+    width: 45%;
+    padding: 1em;
+    float: left;
+
+    img{
+      width: 45%;
+      height: 10em;
+      padding: 0.5em;
+    }
   }
 }

@@ -16,7 +16,6 @@ body {
 }
 .header .text {
   padding: 1em;
-  border-radius: 0.7em;
 }
 .header button {
   background: none;
@@ -58,7 +57,7 @@ nav ul li a:hover {
 }
 nav .searchbar {
   float: left;
-  margin: 1.2em 0 0 9em;
+  margin: 1.2em 0 0 7em;
 }
 nav .searchbar input {
   border: 0.1em solid #666666;
@@ -73,6 +72,32 @@ nav button {
   height: 1.745em;
   border-radius: 0 0.2em 0.2em 0;
   width: 3em;
+}
+
+.whoweare {
+  grid-column: 1/11;
+  padding: 1em 15em 1em 15em;
+  background: white;
+}
+.whoweare .text {
+  width: 45%;
+  float: left;
+  padding: 1em;
+}
+.whoweare .text h2 {
+  border-bottom: 0.1em solid red;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+.whoweare .pictures {
+  width: 45%;
+  padding: 1em;
+  float: left;
+}
+.whoweare .pictures img {
+  width: 45%;
+  height: 10em;
+  padding: 0.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
