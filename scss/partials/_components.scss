@@ -90,3 +90,24 @@ nav {
     }
   }
 }
+
+.icon_brief {
+  grid-column: 1/11;
+  padding: 1em;
+  background-color: black;
+  color: white;
+
+  .coding {
+    text-align: center;
+    padding: 2em;
+    width: 20%;
+    float: left;
+
+    .icon{
+
+      img{
+        width: 5em;
+      }
+    }
+  }
+}
