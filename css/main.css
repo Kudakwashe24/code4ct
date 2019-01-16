@@ -18,11 +18,11 @@ body {
   padding: 1em;
 }
 .header button {
-  background: none;
+  background-color: #ee534f;
   color: white;
   padding: 0.5em 2em 0.5em 2em;
   font-size: 1em;
-  border-radius: 0.2em;
+  border-radius: 0.25em;
   border: 0.1em solid white;
 }
 
@@ -76,7 +76,7 @@ nav .searchbar {
 }
 nav .searchbar input {
   border: 0.1em solid #666666;
-  border-radius: 0.2em 0 0 0.2em;
+  border-radius: 0.25em 0 0 0.25em;
   padding: 0.2em;
   border-right: 0;
 }
