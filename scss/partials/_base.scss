@@ -16,8 +16,26 @@ body {
     font-size: 0.875em;
 
     .text {
-        width: 45%;
         float: left;
         padding: 1em;
+
+        h2 {
+            width: 20%;
+            border-bottom: 0.1em solid red;
+            margin: 0;
+            padding-bottom: 0.5em;
+        }
+    }
+
+    .team {
+        width: 45%;
+        padding: 1em;
+        float: left;
+
+        img{
+          width: 45%;
+          height: 10em;
+          padding: 0.5em;
+        }
     }
 }
