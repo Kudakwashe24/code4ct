@@ -44,4 +44,12 @@ body {
 .meet_the_team {
     grid-column: 1/11;
     padding: 2em 10em 2em 10em;
+
+    .team {
+        width: 45%;
+        float: left;
+        padding: 1em 0 1em 0;
+        margin: 0.2em;
+        height: 353.5px;
+    }
 }
