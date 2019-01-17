@@ -56,6 +56,16 @@ body {
             width: 45%;
             float: left;
             padding: 1em;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .text {
+            padding: 1em;
+            width: 40%;
+            float: left;
         }
     }
 }

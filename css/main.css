@@ -49,6 +49,14 @@ body {
   float: left;
   padding: 1em;
 }
+.meet_the_team .team .image img {
+  width: 100%;
+}
+.meet_the_team .team .text {
+  padding: 1em;
+  width: 40%;
+  float: left;
+}
 
 .header {
   grid-column: 1/11;
