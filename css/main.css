@@ -47,6 +47,7 @@ body {
 .meet_the_team .team .image {
   width: 45%;
   float: left;
+  padding: 1em;
 }
 
 .header {
