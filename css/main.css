@@ -121,6 +121,10 @@ nav button {
   padding: 1em;
   background-color: black;
   color: white;
+  font-size: 0.875em;
+}
+.icon_brief h3 {
+  font-size: 1.25em;
 }
 .icon_brief .coding {
   text-align: center;
