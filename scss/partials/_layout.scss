@@ -26,10 +26,12 @@
 .portfolio {
   grid-column: 1/11;
   padding: 1em 15em 1em 15em;
+  font-size: 0.875em;
 
   .text {
     float: left;
     padding: 1em;
+    // font-size: 0.875em;
 
     h2 {
       border-bottom: 0.1em solid red;
