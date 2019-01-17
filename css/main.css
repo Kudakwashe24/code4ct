@@ -40,6 +40,21 @@ body {
   margin: 0;
   padding-bottom: 0.5em;
 }
+.portfolio .pictures {
+  width: 45%;
+  padding: 1em;
+  float: left;
+}
+.portfolio .pictures img {
+  width: 45%;
+  height: 10em;
+  padding: 0.5em 0 0;
+}
+.portfolio .queen {
+  width: 45%;
+  float: left;
+  padding: 1.5em;
+}
 
 nav {
   grid-column: 1/11;
