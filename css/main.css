@@ -44,6 +44,10 @@ body {
   margin: 0.2em;
   height: 353.5px;
 }
+.meet_the_team .team .image {
+  width: 45%;
+  float: left;
+}
 
 .header {
   grid-column: 1/11;
