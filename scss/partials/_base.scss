@@ -8,3 +8,8 @@ body {
     grid-template-rows: (11);
     margin: 0;
 }
+
+.meet_the_team {
+    grid-column: 1/11;
+    padding: 1em 15em 1em 15em;
+}
