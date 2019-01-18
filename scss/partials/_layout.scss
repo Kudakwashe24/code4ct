@@ -83,4 +83,12 @@
 
 .contact_details {
   grid-column: 1/11;
+  padding: 2em;
+
+  .numbers {
+    width: 20%;
+    float: left;
+    padding: 4em;
+  }
 }
+
