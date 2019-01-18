@@ -58,3 +58,25 @@
     padding: 1.5em;
   }
 }
+
+
+.subscription {
+    grid-column: 1/11;
+    padding: 2em;
+    text-align: center;
+
+    input {
+      height: 1.5em;
+      width: 20em;
+      padding: 0.5em;
+    }
+
+    button{
+      height: 2.5em;
+      width: 8em;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 0.2em;
+    }
+}

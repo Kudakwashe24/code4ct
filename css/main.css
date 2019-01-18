@@ -105,6 +105,17 @@ body {
   padding: 1.5em;
 }
 
+.subscription {
+  grid-column: 1/11;
+  padding: 2em;
+  text-align: center;
+}
+.subscription input {
+  height: 1.5em;
+  width: 20em;
+  padding: 0.5em;
+}
+
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
