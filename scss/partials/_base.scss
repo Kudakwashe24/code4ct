@@ -101,3 +101,20 @@ body {
     }
   }
 }
+
+// =====================
+
+.welcome {
+    grid-column: 1/11;
+    padding: 2em 10em 2em 10em;
+
+    .description {
+        width: 50%;
+        float: left;
+        padding: 1em;
+
+        h2 {
+            margin: 0;
+        }
+    }
+}

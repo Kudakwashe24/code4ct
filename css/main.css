@@ -84,6 +84,19 @@ body {
   padding: 1em;
 }
 
+.welcome {
+  grid-column: 1/11;
+  padding: 2em 10em 2em 10em;
+}
+.welcome .description {
+  width: 50%;
+  float: left;
+  padding: 1em;
+}
+.welcome .description h2 {
+  margin: 0;
+}
+
 .header {
   grid-column: 1/11;
   padding: 4em;
