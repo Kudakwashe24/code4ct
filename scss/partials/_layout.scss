@@ -137,3 +137,25 @@
   }
 }
 
+
+
+footer {
+  grid-column: 1/11;
+  background: #ee534f;
+  padding: 1em 7em -1em 8em;
+  color: white;
+
+  .copyright {
+    width: 50%;
+    float: left;
+  }
+
+  .followus {
+    width: 50%;
+    float: left;
+  }
+
+  i {
+    padding: 0 0.5em 0 0.5em;
+  }
+}
