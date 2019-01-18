@@ -48,6 +48,12 @@ body {
   float: left;
   width: 25%;
 }
+.statistics .text h2 {
+  margin: 1em 0 0.2em 0;
+}
+.statistics .text p {
+  margin: 0.5em 0 2em 0;
+}
 
 .header {
   grid-column: 1/11;
