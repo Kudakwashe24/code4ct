@@ -115,6 +115,14 @@ body {
   width: 20em;
   padding: 0.5em;
 }
+.subscription button {
+  height: 2.5em;
+  width: 8em;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 0.2em;
+}
 
 nav {
   grid-column: 1/11;
