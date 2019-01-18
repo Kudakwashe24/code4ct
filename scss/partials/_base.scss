@@ -49,4 +49,9 @@ body {
 .statistics {
     grid-column: 1/11;
     background-color: black;
+
+    .text {
+        color: white;
+        text-align: center;
+    }
 }

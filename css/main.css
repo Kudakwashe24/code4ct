@@ -41,6 +41,10 @@ body {
   grid-column: 1/11;
   background-color: black;
 }
+.statistics .text {
+  color: white;
+  text-align: center;
+}
 
 .header {
   grid-column: 1/11;
