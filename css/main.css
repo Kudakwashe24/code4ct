@@ -158,6 +158,30 @@ body {
 .contact_details .company ul li {
   padding-bottom: 1em;
 }
+.contact_details .help_and_support {
+  width: 20%;
+  float: left;
+  padding: 1em;
+}
+.contact_details .help_and_support ul {
+  padding-left: 1em;
+  margin: 0;
+}
+.contact_details .help_and_support ul li {
+  padding-bottom: 1em;
+}
+.contact_details .courses {
+  width: 20%;
+  float: left;
+  padding: 1em;
+}
+.contact_details .courses ul {
+  padding-left: 1em;
+  margin: 0;
+}
+.contact_details .courses ul li {
+  padding-bottom: 1em;
+}
 
 nav {
   grid-column: 1/11;
