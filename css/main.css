@@ -68,6 +68,22 @@ body {
   padding: 0em 1em 0em 1em;
 }
 
+/* About Page */
+.about_us {
+  grid-column: 1/11;
+  background: #80808063;
+  padding: 3em;
+  text-align: center;
+}
+.about_us ul {
+  padding-left: 0;
+}
+.about_us ul li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 1em;
+}
+
 .header {
   grid-column: 1/11;
   padding: 4em;
