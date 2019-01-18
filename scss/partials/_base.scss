@@ -66,3 +66,17 @@ body {
         }
     }
 }
+
+
+.companies {
+    grid-column: 1/11;
+    color: white;
+    padding: 2em 0em 2em 0em;
+    background: black;
+    text-align: center;
+
+    img {
+        width: 6.7em;
+        padding: 0em 1em 0em 1em;
+    }
+}

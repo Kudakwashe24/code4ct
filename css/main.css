@@ -55,6 +55,18 @@ body {
   margin: 0.5em 0 2em 0;
 }
 
+.companies {
+  grid-column: 1/11;
+  color: white;
+  padding: 2em 0em 2em 0em;
+  background: black;
+  text-align: center;
+}
+.companies img {
+  width: 6.7em;
+  padding: 0em 1em 0em 1em;
+}
+
 .header {
   grid-column: 1/11;
   padding: 4em;
