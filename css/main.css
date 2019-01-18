@@ -6,55 +6,12 @@ body {
   margin: 0;
 }
 
-.meet_the_team {
-  grid-column: 1/11;
-  padding: 1em 15em 1em 15em;
-  background: white;
-  font-size: 0.875em;
-}
-.meet_the_team .text {
-  float: left;
-  padding: 1em;
-}
-.meet_the_team .text h2 {
-  width: 20%;
-  border-bottom: 0.1em solid red;
-  margin: 0;
-  padding-bottom: 0.5em;
-}
-.meet_the_team .team {
-  width: 45%;
-  padding: 1em;
-  float: left;
-}
-.meet_the_team .team img {
-  width: 45%;
-  height: 10em;
-  padding: 0.5em;
-}
-
-.meet_the_team {
+.meet_our_team {
   grid-column: 1/11;
   padding: 2em 10em 2em 10em;
 }
-.meet_the_team .team {
+.meet_our_team .team {
   width: 45%;
-  float: left;
-  padding: 1em 0 1em 0;
-  margin: 0.2em;
-  height: 353.5px;
-}
-.meet_the_team .team .image {
-  width: 45%;
-  float: left;
-  padding: 1em;
-}
-.meet_the_team .team .image img {
-  width: 100%;
-}
-.meet_the_team .team .text {
-  padding: 1em;
-  width: 40%;
   float: left;
 }
 
