@@ -37,6 +37,11 @@ body {
   margin: 0;
 }
 
+.statistics {
+  grid-column: 1/11;
+  background-color: black;
+}
+
 .header {
   grid-column: 1/11;
   padding: 4em;
