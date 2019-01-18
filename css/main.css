@@ -30,6 +30,12 @@ body {
   width: 40%;
   float: left;
 }
+.meet_our_team .team .text h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+.meet_our_team .team .text p {
+  margin: 0;
+}
 
 .header {
   grid-column: 1/11;
