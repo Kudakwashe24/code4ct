@@ -25,6 +25,11 @@ body {
 .meet_our_team .team .image img {
   width: 100%;
 }
+.meet_our_team .team .text {
+  padding: 1em;
+  width: 40%;
+  float: left;
+}
 
 .header {
   grid-column: 1/11;
