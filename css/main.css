@@ -137,6 +137,10 @@ body {
   border-radius: 0.2em;
 }
 
+.contact_details {
+  grid-column: 1/11;
+}
+
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
