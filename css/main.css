@@ -146,6 +146,18 @@ body {
   float: left;
   padding: 4em;
 }
+.contact_details .company {
+  width: 20%;
+  float: left;
+  padding: 1em;
+}
+.contact_details .company ul {
+  padding-left: 1em;
+  margin: 0;
+}
+.contact_details .company ul li {
+  padding-bottom: 1em;
+}
 
 nav {
   grid-column: 1/11;
