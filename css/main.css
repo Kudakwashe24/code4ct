@@ -40,10 +40,13 @@ body {
 .statistics {
   grid-column: 1/11;
   background-color: black;
+  padding: 2em;
 }
 .statistics .text {
   color: white;
   text-align: center;
+  float: left;
+  width: 25%;
 }
 
 .header {
