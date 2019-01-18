@@ -19,6 +19,11 @@ body {
 }
 .meet_our_team .team .image {
   width: 45%;
+  float: left;
+  padding: 1em;
+}
+.meet_our_team .team .image img {
+  width: 100%;
 }
 
 .header {

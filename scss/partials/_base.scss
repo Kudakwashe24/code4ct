@@ -22,6 +22,12 @@ body {
 
         .image {
             width: 45%;
+            float: left;
+            padding: 1em;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }
