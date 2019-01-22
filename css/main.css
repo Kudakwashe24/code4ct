@@ -113,6 +113,13 @@ body {
   width: 100%;
 }
 
+.message {
+  padding: 1em 10em 1em 10em;
+}
+.message .send {
+  float: left;
+}
+
 .header {
   grid-column: 1/11;
   padding: 4em;
