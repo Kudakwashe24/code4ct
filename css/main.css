@@ -103,6 +103,10 @@ body {
   color: white;
   border-radius: 0.2em;
 }
+.welcome .picture {
+  width: 40%;
+  float: left;
+}
 
 .header {
   grid-column: 1/11;
@@ -235,9 +239,6 @@ footer .followus {
 }
 footer i {
   padding: 0 0.5em 0 0.5em;
-}
-footer .welcome {
-  background: #ee534f;
 }
 
 nav {
