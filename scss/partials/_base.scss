@@ -129,5 +129,11 @@ body {
     .picture {
         width: 40%;
         float: left;
+        padding: 2em;
+        margin-top: 2em;
+
+        img {
+            width: 100%;
+        }
     }
 }
