@@ -342,4 +342,20 @@ nav button {
   width: 5em;
 }
 
+.who_we_are {
+  grid-column: 1/11;
+}
+.who_we_are .picture {
+  width: 50%;
+  float: left;
+}
+.who_we_are .picture img {
+  width: 100%;
+}
+.who_we_are .text {
+  width: 30.788%;
+  float: left;
+  padding: 0em 2em 3.5em 4em;
+}
+
 /*# sourceMappingURL=main.css.map */
