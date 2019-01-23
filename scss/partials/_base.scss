@@ -142,7 +142,7 @@ body {
 // contact page
 
 .message {
-    padding: 1em 10em 1em 8em;
+    padding: 1em 10em 5em 8em;
 
     .send {
         float: left;
@@ -183,14 +183,14 @@ body {
 
 .mapouter {
     grid-column: 1/11;
-    text-align:right;
-    height: 31.250em;
-    width:37.500em;
+    // text-align:right;
+    // height: 31.250em;
+    width: 100%;
 }
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:31.250em;
-    width:37.500em;
+    // height:31.250em;
+    width: 100%;
 }
