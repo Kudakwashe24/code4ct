@@ -137,6 +137,10 @@ body {
   border: 0em solid white;
   width: 8em;
 }
+.message .contact_info {
+  float: left;
+  width: 20%;
+}
 
 .header {
   grid-column: 1/11;
