@@ -114,7 +114,7 @@ body {
 }
 
 .message {
-  padding: 1em 10em 1em 10em;
+  padding: 1em 10em 1em 8em;
 }
 .message .send {
   float: left;
@@ -145,8 +145,16 @@ body {
 
 .mapouter {
   grid-column: 1/11;
-  padding: 3em;
-  text-align: center;
+  text-align: right;
+  height: 31.25em;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
 }
 
 .header {
