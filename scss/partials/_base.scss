@@ -149,7 +149,7 @@ body {
     }
 
     input {
-      margin: 1em 2.3em 1em 0em;
+      margin: 1em 0.5em 1em 0em;
       width: 16.7em;
       height: 2em;
       padding: 0.3em;
@@ -157,7 +157,8 @@ body {
 
     textarea{
         margin: 1em 0em 1em 0em;
-        padding: 0.3em;
+        padding: 0.5em;
+        width: 53.9em;
     }
 
       button{
@@ -173,4 +174,10 @@ body {
         float: left;
         width: 20%;
     }
+}
+
+.mapouter {
+    grid-column: 1/11;
+    padding: 3em;
+    text-align: center;
 }
