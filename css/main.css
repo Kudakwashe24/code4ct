@@ -103,6 +103,40 @@ body {
   color: white;
   border-radius: 0.2em;
 }
+.welcome .picture {
+  width: 40%;
+  float: left;
+  padding: 2em;
+  margin-top: 2em;
+}
+.welcome .picture img {
+  width: 100%;
+}
+
+.message {
+  padding: 1em 10em 1em 10em;
+}
+.message .send {
+  float: left;
+}
+.message input {
+  margin: 1em 2.3em 1em 0em;
+  width: 16.7em;
+  height: 2em;
+  padding: 0.3em;
+}
+.message textarea {
+  margin: 1em 0em 1em 0em;
+  padding: 0.3em;
+}
+.message button {
+  padding: 0.7em;
+  color: white;
+  background: #ff0000a1;
+  border-radius: 0.3em;
+  border: 0em solid white;
+  width: 8em;
+}
 
 .header {
   grid-column: 1/11;
@@ -236,9 +270,6 @@ footer .followus {
 footer i {
   padding: 0 0.5em 0 0.5em;
 }
-footer .welcome {
-  background: #ee534f;
-}
 
 nav {
   grid-column: 1/11;
@@ -334,6 +365,25 @@ nav button {
 }
 .icon_brief .coding .icon img {
   width: 5em;
+}
+
+.who_we_are {
+  grid-column: 1/11;
+}
+.who_we_are .picture {
+  width: 50%;
+  float: left;
+}
+.who_we_are .picture img {
+  width: 100%;
+}
+.who_we_are .text {
+  width: 30.788%;
+  float: left;
+  padding: 0em 2em 3.5em 4em;
+}
+.who_we_are h3 {
+  color: #ee534f;
 }
 
 /*# sourceMappingURL=main.css.map */
