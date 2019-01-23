@@ -1,6 +1,6 @@
 # Code4CT
 
-Rebuilding a website is exciting, but it can also be quite stressful. It is all about rebuilding a structure and its additional contents, in this project I will apply what I have learnt in classes and use it to rebuild a website for Code4CT. We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.
+The organisation Code4CT is rebuilding their website and they want it to look more modern and beautiful. Their idea is to have a more responsive, interactive and more engaging site, by having a website like that it will help users/visitors stay longer on the site and hence they will get the message and what Code4CT is for.
 
 
 ## Live Link
