@@ -208,9 +208,14 @@ body {
   padding: 1em;
 }
 .portfolio .text h2 {
-  border-bottom: 0.1em solid red;
   margin: 0;
   padding-bottom: 0.5em;
+  font-size: 1.5em;
+}
+.portfolio .text hr {
+  margin-right: 90%;
+  color: red;
+  width: 10%;
 }
 .portfolio .pictures {
   width: 45%;

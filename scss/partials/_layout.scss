@@ -71,9 +71,15 @@
     // font-size: 0.875em;
 
     h2 {
-      border-bottom: 0.1em solid red;
       margin: 0;
       padding-bottom: 0.5em;
+      font-size: 1.500em;
+    }
+
+    hr {
+      margin-right: 90%;
+      color: red;
+      width: 10%;
     }
   }
 
