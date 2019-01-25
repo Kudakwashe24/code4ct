@@ -167,17 +167,35 @@ body {
 .header h2 {
   font-size: 3.125em;
   font-weight: 600;
+  color: #e8e8e8;
 }
 .header .text {
   padding: 1em;
 }
-.header button {
-  background-color: #ee534f;
-  color: white;
-  padding: 0.5em 2em 0.5em 2em;
-  font-size: 1em;
+.header .startNow {
+  font-size: 0.875em;
+  width: 10.625em;
+  height: 3em;
   border-radius: 0.25em;
-  border: 0.1em solid white;
+  background-color: black;
+  color: #e8e8e8;
+  border: none;
+}
+.header .startNow:hover {
+  background-color: #e1918a;
+}
+.header .donateNow {
+  font-size: 0.875em;
+  width: 10.625em;
+  height: 3em;
+  border-radius: 0.25em;
+  background-color: black;
+  color: #e8e8e8;
+  border: none;
+  border-color: #e8e8e8;
+}
+.header .donateNow:hover {
+  background-color: #e1918a;
 }
 
 .portfolio {
@@ -357,9 +375,17 @@ nav button {
   padding: 1em;
 }
 .whoweare .text h2 {
-  border-bottom: 0.1em solid red;
   margin: 0;
   padding-bottom: 0.5em;
+  font-size: 1.5em;
+}
+.whoweare .text hr {
+  margin-right: 90%;
+  color: red;
+  width: 15%;
+}
+.whoweare .text h3 {
+  font-size: 1em;
 }
 .whoweare .pictures {
   width: 45%;

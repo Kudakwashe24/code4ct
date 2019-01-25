@@ -14,20 +14,49 @@
     font-size: 3.125em;
     font-weight: 600;
     // line-height: 0.6;
+    color: #e8e8e8;
   }
 
   .text {
       padding: 1em;   
   }
   
-  button{
-      background-color: #ee534f;
-      color: white;
-      padding: 0.5em 2em 0.5em 2em;
-      font-size: 1em;
-      border-radius: 0.250em;
-      border: 0.1em solid white; 
-    }
+  .startNow {
+    font-size: 0.875em;
+    width: 10.625em;
+    height: 3.000em;
+    border-radius: 0.250em;
+    background-color: black;
+    color: #e8e8e8;
+    border: none;
+  }
+
+  .startNow:hover {
+    background-color: #e1918a;
+  }
+  .donateNow {
+    font-size: 0.875em;
+    width: 10.625em;
+    height: 3.000em;
+    border-radius: 0.250em;
+    background-color: black;
+    color: #e8e8e8;
+    border: none;
+    border-color: #e8e8e8;
+  }
+
+  .donateNow:hover {
+    background-color: #e1918a;
+  }
+
+  
+      // background-color: #ee534f;
+      // color: white;
+      // padding: 0.5em 2em 0.5em 2em;
+      // font-size: 1em;
+      // border-radius: 0.250em;
+      // border: 0.1em solid white; 
+    
 }
 
 
