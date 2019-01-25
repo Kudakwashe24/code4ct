@@ -160,7 +160,13 @@ body {
   color: white;
   text-align: center;
   background-size: cover;
-  font-size: 1.5em;
+  font-size: 0.906em;
+  height: 75vh;
+  padding-top: 125px;
+}
+.header h2 {
+  font-size: 3.125em;
+  font-weight: 600;
 }
 .header .text {
   padding: 1em;
@@ -290,9 +296,10 @@ footer i {
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
-  padding: 1em 3em 0em 22em;
+  padding: 0em 0em 0em 3em;
   background: white;
   position: fixed;
+  width: 100%;
 }
 nav .logo {
   width: 35%;
@@ -317,7 +324,7 @@ nav ul li a {
   color: #555555;
 }
 nav ul li a:hover {
-  color: #ee534f;
+  color: #e1918a;
 }
 nav .searchbar {
   float: left;

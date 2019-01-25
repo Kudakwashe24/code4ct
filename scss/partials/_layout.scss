@@ -6,10 +6,18 @@
   color: white;
   text-align: center;
   background-size: cover;
-  font-size: 1.5em;
+  font-size: 0.906em;
+  height: 75vh;
+  padding-top: 125px;
+
+  h2 {
+    font-size: 3.125em;
+    font-weight: 600;
+    // line-height: 0.6;
+  }
 
   .text {
-      padding: 1em;
+      padding: 1em;   
   }
   
   button{

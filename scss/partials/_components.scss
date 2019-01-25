@@ -6,9 +6,10 @@
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
-  padding: 1em 3em 0em 22em;
+  padding: 0em 0em 0em 3em;
   background: white;
   position: fixed;
+  width: 100%;
 
   .logo {
     width: 35%;
@@ -36,7 +37,7 @@ nav {
       }
 
       a:hover {
-        color: #ee534f;
+        color: #e1918a;
       }
     }
   }
