@@ -290,8 +290,9 @@ footer i {
 nav {
   grid-column: 1/11;
   grid-row: 1/2;
-  padding: 1em 1em 1em 3em;
+  padding: 1em 3em 0em 22em;
   background: white;
+  position: fixed;
 }
 nav .logo {
   width: 35%;
@@ -309,10 +310,11 @@ nav ul li {
   display: inline-flex;
   padding-right: 2em;
   font-size: 0.875em;
+  font-weight: normal;
 }
 nav ul li a {
   text-decoration: none;
-  color: #666666;
+  color: #555555;
 }
 nav ul li a:hover {
   color: #ee534f;
