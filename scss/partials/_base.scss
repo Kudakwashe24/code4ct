@@ -2,6 +2,7 @@
 
 // box-sizing, body, headings
 
+// body with display grid, grid-templete-column, grid-template-row and margin
 body {
     display: grid;
     grid-template-columns: (10);
@@ -9,11 +10,13 @@ body {
     margin: 0;
 }
 
+// grid-column, padding and font-size
 .meet_our_team {
     grid-column: 1/11;
     padding: 2em 10em 2em 10em;
     font-size: 0.875em;
 
+    // width, float, padding, margin, height
     .team {
         width: 45%;
         float: left;
@@ -21,25 +24,30 @@ body {
         margin: 0.2em;
         height: 353.5px;
 
+        // width, float and padding
         .image {
             width: 45%;
             float: left;
             padding: 1em;
 
+            // width
             img {
                 width: 100%;
             }
         }
 
+        // padding, width, float
         .text {
             padding: 1em;
             width: 40%;
             float: left;
 
+            // margin
             h3 {
                 margin: 0.5em 0 0.5em 0;
             }
 
+            // margin
             p {
                 margin: 0;
             }
@@ -47,17 +55,21 @@ body {
     }
 }
 
+// Statistics section
+// grid-column, background-color and padding
 .statistics {
     grid-column: 1/11;
     background-color: black;
     padding: 2em;
 
+    // color, text-align, float and width
     .text {
         color: white;
         text-align: center;
         float: left;
         width: 25%;
 
+        // Margin on the headung and paragraph
         h2 {
             margin: 1em 0 0.2em 0;
         }
