@@ -16,6 +16,22 @@ body {
     padding: 2em 10em 2em 10em;
     font-size: 0.875em;
 
+    h2 {
+        font-size: 1.500em;
+    }
+
+    hr {
+        margin-right: 90%;
+        color: red;
+        width: 10%;
+    }
+
+    .social_media {
+        font-stretch: normal;
+        // color: #ee534f;
+        letter-spacing: normal;
+    }
+
     // width, float, padding, margin, height
     .team {
         width: 45%;
