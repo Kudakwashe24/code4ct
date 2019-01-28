@@ -163,3 +163,33 @@ nav {
   padding: 3em 15em 3em 15em;
   text-align: center;
 }
+
+.our_Courses {
+  grid-column: 1/11;
+  background-color: white;
+  color: black;
+  font-size: 0.875em;
+  padding: 1em;
+  
+  h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.250em;
+  }
+  .coding {
+    text-align: center;
+    padding: 2em;
+    width: 20%;
+    float: left;
+
+    .icon{
+
+      img{
+        width: 5em;
+      }
+    }
+  }
+}

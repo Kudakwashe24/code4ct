@@ -10,17 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.cd-top.cd-top--show {
-  /* the button becomes visible */
-  visibility: visible;
-  opacity: 1;
-}
-
-.cd-top.cd-top--fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: 0.5;
-}
-
 .meet_our_team {
   grid-column: 1/11;
   padding: 2em 10em 2em 10em;
@@ -475,6 +464,30 @@ nav button {
   grid-column: 1/11;
   padding: 3em 15em 3em 15em;
   text-align: center;
+}
+
+.our_Courses {
+  grid-column: 1/11;
+  background-color: white;
+  color: black;
+  font-size: 0.875em;
+  padding: 1em;
+}
+.our_Courses h2 {
+  text-align: center;
+  font-size: 2em;
+}
+.our_Courses h3 {
+  font-size: 1.25em;
+}
+.our_Courses .coding {
+  text-align: center;
+  padding: 2em;
+  width: 20%;
+  float: left;
+}
+.our_Courses .coding .icon img {
+  width: 5em;
 }
 
 /*# sourceMappingURL=main.css.map */
