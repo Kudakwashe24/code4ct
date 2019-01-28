@@ -486,8 +486,8 @@ nav button {
   width: 20%;
   float: left;
 }
-.our_Courses .coding .icon img {
-  width: 5em;
+.our_Courses .coding .cart_btn {
+  background-color: #e1918a;
 }
 
 /*# sourceMappingURL=main.css.map */
