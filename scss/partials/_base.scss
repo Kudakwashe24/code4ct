@@ -107,15 +107,19 @@ html {
     padding: 2em 0em 2em 0em;
     background: black;
     text-align: center;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
     position: relative;
     overflow: hidden;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0, 0, 0, 0, 0);
 
     img {
         width: 6.7em;
         padding: 0em 1em 0em 1em;
-        animation: moveSlideshow 5s linear infinite;
+        // opacity: 0;
+        transition: opacity 0.5s ease-out;
+        background-position: 0 -200px;
+        animation: moveSlideshow 1s linear infinite;
         
     }
 
