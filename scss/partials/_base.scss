@@ -10,6 +10,21 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.cd-top.cd-top--show { 
+    /* the button becomes visible */ 
+    visibility: visible;
+    opacity: 1;
+   } 
+   
+   .cd-top.cd-top--fade-out { 
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */ 
+    opacity: .5; 
+   }
+
 // grid-column, padding and font-size
 .meet_our_team {
     grid-column: 1/11;
@@ -107,32 +122,7 @@ body {
     img {
         width: 6.7em;
         padding: 0em 1em 0em 1em;
-        animation: move 3s;
-        -webkit-animation: move 3s;
 
-        @keyframes move {
-            from {
-              margin-left: 100%;
-              width: 20%; 
-            }
-          
-            to {
-              margin-right: 0%;
-              width: 20%;
-            }
-          }
-                      
-          @-webkit-keyframes move {
-            from {
-              margin-left: 100%;
-              width: 20%; 
-            }
-          
-            to {
-              margin-right: 0%;
-              width: 20%;
-            }
-          }
     }
 }
 
@@ -166,13 +156,14 @@ body {
         width: 50%;
         float: left;
         padding: 1em;
+        font-size: 0.875em;
 
         h2 {
             margin: 0;
         }
 
-        .button {
-            background: #ee534f;
+        .ourCourses {
+            background: #e1918a;
             border: 0 solid white;
             padding: 0.7em 2em 0.7em 2em;
             color: white;
