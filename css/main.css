@@ -78,10 +78,20 @@ html {
   padding: 2em 0em 2em 0em;
   background: black;
   text-align: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
 }
 .companies img {
   width: 6.7em;
   padding: 0em 1em 0em 1em;
+  animation: moveSlideshow 5s linear infinite;
+}
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
 }
 
 /* About Page */
