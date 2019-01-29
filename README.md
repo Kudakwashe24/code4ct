@@ -4,64 +4,34 @@ The organisation Code4CT is rebuilding their website and they want it to look mo
 
 
 # Getting Started
-- https://kudakwashe24.github.io/code4ct/index.html
+- Created my code4ct repository
+- Updated the site into a live website
+- Used gitbash to clone 
+- Created my home file and named it index.html
+- Created my supporting folders namely: js, css and sass using the command line
 
-## Technologies Used
+# Prevalent Technologies Used
 
  - HTML
  - CSS
- - Javascript
+ - JavaScript
  - Sass
 
 
-### Other Technologies Used
+# Built with
+## Technologies
+- Git
+- SASS
 
-Tools:
+## Languages
+- HTML
+- CSS
+- SASS
 
-- Visual Studio Code
-- GitBash
-
-```
-
-### Change log
-
-2018-11-16:
-- I added base folders
-- Created a Readme.md
-- Created my live link
-- Readme updated
-- Updated my website link
-- Cleared mistakes on a folder
-- Created a nav bar that includes a Home page, Contact, About and Portofilio
-
-2018-11-19
-- Styled my nav bar
-- Added the code4ct logo
-- Created the Young Women Leveraging Tech for Social Innovation heading and added the paragraph
-- Removed href on my nav bar
-
-2018-11-23
-- Created my partials folder and added files
-- Base.scss holds boilerplate content. It holds the style of every page of your site.
-- Component.scss holds all my micro-layout files. Styling of buttons and nav bar.
-- Layout.scss styles major sections of the layout like a header or footer and styles the grid system.
-- Variables are a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse.
-- Responsiveness is all the media queries.
-
-2018-11-27
-- Restarting the code4ct
-- Added all required images
-- Fixed my header with navbar, everything is displayed inline
-
-2018-11-29
-- Added paragraph 'Who we are"
-- Added images next to paragraph. 
-- Added the discription of the following: Coding, problem Soloving and Career Guidance
-- Added icons and a paragraph to each description
-- Styled the descriptions inline and changed background color
-
- 
-
+## Tools
+- VScode
+- Firefox - Developer Edition
+- Github
 
 
 ## Completed by
