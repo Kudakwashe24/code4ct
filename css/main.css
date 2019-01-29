@@ -173,17 +173,6 @@ html {
   width: 20%;
 }
 
-.mapouter {
-  grid-column: 1/11;
-  width: 100%;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  width: 100%;
-}
-
 .header {
   grid-column: 1/11;
   padding: 4em;
